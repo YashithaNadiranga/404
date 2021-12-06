@@ -1,7 +1,7 @@
 # 404
 404 redirect htacess code
 
-<IfModule mod_rewrite.c>
+`<IfModule mod_rewrite.c>
   RewriteEngine On
   RewriteBase /
   RewriteRule ^index\.html$ - [L]
@@ -9,4 +9,4 @@
   RewriteCond %{REQUEST_FILENAME} !-d
   RewriteCond %{REQUEST_FILENAME} !-l
   RewriteRule . /index.html [L]
-</IfModule>
+</IfModule>`
